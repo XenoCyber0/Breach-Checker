@@ -1,0 +1,5 @@
+*.exe
+*.o
+*_debug.exe
+*_asan.exe
+test_passwords.txt
