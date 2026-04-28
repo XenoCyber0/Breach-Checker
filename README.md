@@ -44,6 +44,8 @@ pacman -S mingw-w64-x86_64-curl mingw-w64-x86_64-openssl
 ## Build
 
 ```bash
+git clone https://github.com/XenoCyber0/Breach-Checker.git
+cd Breach-Checker
 make
 ```
 
