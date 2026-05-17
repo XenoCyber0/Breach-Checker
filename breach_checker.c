@@ -13,6 +13,7 @@
  */
 
 #define _POSIX_C_SOURCE 200809L
+#define _DEFAULT_SOURCE
 #include "breach_checker.h"
 
 /* ─── Entry point ─────────────────────────────────────────────────── */
@@ -371,6 +372,7 @@ void platform_sleep_ms(int ms) {
 /* ─── Argument parsing ────────────────────────────────────────────── */
 
 int parse_args(int argc, char *argv[], char **file_path, int *show_tips) {
+    (void)show_tips;
     static int idx = 1;
     if (idx >= argc) return -1;
 
